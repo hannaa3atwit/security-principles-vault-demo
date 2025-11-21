@@ -1,17 +1,18 @@
 {
   "name": "security-principles-vault-demo",
   "version": "1.0.0",
+  "description": "Intentionally vulnerable Ethereum vault demo for a Security Principles course.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx hardhat test",
+    "deploy:local": "npx hardhat run scripts/deploy.js --network hardhat",
+    "deploy:sepolia": "npx hardhat run scripts/deploy.js --network sepolia",
+    "demo:local": "npx hardhat run scripts/demo.js --network hardhat",
+    "demo:sepolia": "npx hardhat run scripts/demo.js --network sepolia"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
-    "dotenv": "^17.2.3",
-    "hardhat": "^3.0.15"
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.0.0",
+    "hardhat": "^2.22.0"
   }
 }

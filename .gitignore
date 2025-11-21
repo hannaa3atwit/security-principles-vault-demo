@@ -1,0 +1,23 @@
+# Ignore environment variable files (private keys, API keys)
+.env
+
+# Ignore node modules
+node_modules/
+
+# Ignore Hardhat artifacts
+artifacts/
+cache/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ignore system files
+.DS_Store
+Thumbs.db
