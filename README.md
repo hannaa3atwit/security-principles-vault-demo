@@ -1,4 +1,3 @@
-Security Principles Smart Contract Vulnerability Demo
 This project demonstrates a very simple and intentionally vulnerable Ethereum smart contract.
 The purpose of the project is to show how flawed withdraw logic can allow an attacker to drain funds that do not belong to them.
 This is for academic demonstration only and must never be used in a real wallet or deployed on mainnet.
